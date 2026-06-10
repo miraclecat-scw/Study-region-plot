@@ -20,7 +20,7 @@ pip install numpy pandas matplotlib cartopy xarray
 
 3. 运行程序
 ```bash
-python main.py
+python app.py
 ```
 
 4. 程序将读取nc和npy文件，并在经纬度范围为\[105°E-125°E, 5°N-25°N\]的南海区域内绘制站点分布图。生成的图片文件名为`marineRsearch.png`，存储在程序所在目录下。
